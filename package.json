@@ -1,0 +1,38 @@
+{
+  "name": "dpr-change",
+  "version": "0.1.0",
+  "description": "Custom devicePixelRatio change event",
+  "main": "lib/index.js",
+  "jsnext:main": "src/index.js",
+  "files": [
+    "lib/index.js",
+    "src/index.js"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noeldelgado/dpr-change.git"
+  },
+  "author": "Noel Delgado <auhcsei@gmail.com> (http://pixelia.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noeldelgado/dpr-change/issues"
+  },
+  "homepage": "https://github.com/noeldelgado/dpr-change#readme",
+  "dependencies": {
+    "eventdispatcher.js": "0.0.2",
+    "lodash.assign": "4.2.0"
+  },
+  "devDependencies": {
+    "buble": "0.15.2",
+    "rollup": "0.45.2",
+    "rollup-plugin-buble": "0.15.0",
+    "rollup-plugin-cleanup": "1.0.1",
+    "rollup-plugin-commonjs": "8.0.2",
+    "rollup-plugin-json": "2.3.0",
+    "rollup-plugin-node-resolve": "3.0.0"
+  }
+}
