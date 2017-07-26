@@ -3,7 +3,7 @@ import assign from 'lodash.assign';
 import { version } from '../package.json';
 
 const DPR = assign({
-  version,
+  VERSION: version,
   DELAY: 500
 }, EventDispatcher.prototype);
 
