@@ -1,3 +1,7 @@
+v0.1.4 (2017-08-02)
+- generated new `lib/index.es.js` file using `format: es`
+- updated `pkg.module` to use the new `index.es.js` file instead
+
 v0.1.3 (2017-07-29)
 - use `pkg.module` instead of `pkg.jsnext:main` for ES2015-aware tools
 
